@@ -21,7 +21,7 @@ It should look like this:
 ### Step 2: Extract URLs and download
 - Install [Bun](https://bun.com/docs/installation)
 - Open cmd from Windows Explorer's access path, or if you're UNIX (Mac/Linux) your preferred SH
-- `bun main.js`
+- `bun main.js` (or `bun main.ts` if you cloned from source)
 - Enjoy with `downloads/` folder!
 
 ## Why I have to scroll and make all that stuff???
