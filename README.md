@@ -22,6 +22,7 @@ It should look like this:
 - Install [Bun](https://bun.com/docs/installation)
 - Open cmd from Windows Explorer's access path, or if you're UNIX (Mac/Linux) your preferred SH
 - `bun main.js`
+- Enjoy with `downloads/` folder!
 
 ## Why I have to scroll and make all that stuff???
 Well, since Discord caches your “GIFs,” which are no longer GIFs in the 21st century, as this format is obsolete. GIFs are now a seamless integration of animated WEBP, MP4, and APNG. This reduces bandwidth and offers better quality, which many third-party services have done, including Discord.
