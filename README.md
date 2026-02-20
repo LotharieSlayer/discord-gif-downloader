@@ -3,6 +3,7 @@
 ## How to download your GIFs
 
 ### Step 1: Dump
+- Download latest script in the [releases section](https://github.com/LotharieSlayer/discord-gif-downloader/releases)
 - Go on [discord.com/app](https://discord.com/app) from a browser
 - Open F12 (DevTools)
 - Go to Network tab
@@ -15,13 +16,12 @@ It should look like this:
 - Open the GIF picker on Discord (ex: Your favorites)
 - Then scroll inside from the picker's top to the bottom and let the Network tab fill with WEBPs, GIFs, MP4 links; etc...
 - Once you reached the end, [export the .HAR](https://help.hackthebox.com/en/articles/9065188-exporting-firefox-and-chrome-network-logs)
-- Download it as "discord.har" in the same folder as main.ts, the name here is important.
+- Download it as "discord.har" in the same folder as main.js, the name here is important.
 
 ### Step 2: Extract URLs and download
-- Install [Bun](https://bun.com/docs/installation) (or Node.js)
+- Install [Bun](https://bun.com/docs/installation)
 - Open cmd from Windows Explorer's access path, or if you're UNIX (Mac/Linux) your preferred SH
-- `bun install`
-- `bun run main.ts`
+- `bun main.js`
 
 ## Why I have to scroll and make all that stuff???
 Well, since Discord caches your “GIFs,” which are no longer GIFs in the 21st century, as this format is obsolete. GIFs are now a seamless integration of animated WEBP, MP4, and APNG. This reduces bandwidth and offers better quality, which many third-party services have done, including Discord.
@@ -32,7 +32,7 @@ This is the main problem with this project that inspired me and don't use the Di
 
 ## Supports
 - Any browser that have a HAR export.
-- And a computer where Bun or Node can run.
+- And a computer where Bun can run.
 
 ## Contribute
 ### PR Feature welcomed
