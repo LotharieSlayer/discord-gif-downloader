@@ -27,7 +27,7 @@ It should look like this:
 ## Why I have to scroll and make all that stuff???
 Well, since Discord caches your “GIFs,” which are no longer GIFs in the 21st century, as this format is obsolete. GIFs are now a seamless integration of animated WEBP, MP4, and APNG. This reduces bandwidth and offers better quality, which many third-party services have done, including Discord.
 
-But for many years, Discord had left their CDN open and unprotected, and many users had problems because a simple CDN link could be used to start tracking channels and users. All of this leads now to a CDN and a cache under an authorization token, which is needed to access easily to your GIFs. To be honest it is a bit complicated to do without, and so that ambiguous way is the most reliable to download your GIF collection directly from Discord's CDN cache.
+But for many years, Discord had left their CDN open and unprotected, and many users had problems because a simple CDN link could be used to start tracking channels and users. All of this leads now to a CDN and a cache under an authorization token stored in URL, which is needed to access easily to your "GIFs". To be honest it is a bit complicated to do without, and so that ambiguous way is the most reliable to download your "GIF" collection directly from Discord's CDN cache.
 
 This is the main problem with this project that inspired me and don't use the Discord's CDN cache: [github.com/womblee/discord-favorite-gif-downloader](https://github.com/womblee/discord-favorite-gif-downloader)
 
