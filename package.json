@@ -9,5 +9,8 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "scripts": {
+	"build": "bun build --target=bun --main.js ./main.ts --outfile=main.js"
   }
 }
